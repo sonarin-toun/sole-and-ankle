@@ -18,7 +18,7 @@ const SHOES = [
     price: 16500,
     salePrice: null,
     // 1 hour ago! 🔥
-    releaseDate: Date.now() - 1000 * 60 * 60 * 1,
+    releaseDate: Date.now(), //- 1000 * 60 * 60 * 1,
     numOfColors: 2,
   },
   {
@@ -27,7 +27,7 @@ const SHOES = [
     imageSrc: '/assets/metcon-5.jpg',
     price: 16500,
     salePrice: null,
-    releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 2,
+    releaseDate: Date.now(),
     numOfColors: 1,
   },
   {
@@ -36,7 +36,7 @@ const SHOES = [
     imageSrc: '/assets/phantom.jpg',
     price: 16500,
     salePrice: null,
-    releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 4,
+    releaseDate: Date.now(),
     numOfColors: 4,
   },
   {
@@ -45,7 +45,7 @@ const SHOES = [
     imageSrc: '/assets/pegasus.jpg',
     price: 16500,
     salePrice: null,
-    releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 16,
+    releaseDate: Date.now(),
     numOfColors: 1,
   },
   {
